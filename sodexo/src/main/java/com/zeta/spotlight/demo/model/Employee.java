@@ -8,6 +8,7 @@ import java.util.Date;
 @Entity
 public class Employee {
 
+    @JsonProperty("id")
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
