@@ -1,0 +1,12 @@
+psql postgres -U test
+$ CREATE DATABASE sodexo;
+$ \du : view users and permissions
+$ \l  : view databases
+$ \c  : switch to sodexo db
+$ dt  : view tables
+$ \d <table_name> : describe table
+
+
+progrma - 1
+badge - 3,4,5
+
